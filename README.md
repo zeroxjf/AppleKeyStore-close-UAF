@@ -1,6 +1,6 @@
 # AppleKeyStoreUserClient close() UAF
 
-PoC by [@zeroxjf](https://x.com/zeroxjf)
+PoC by [@0xjohnny](https://x.com/0xjohnny)
 
 > **Credit:** This is **not** an original discovery. The bug was independently found and patched by an unknown third party in iOS 26.3 RC. I rediscovered and weaponized it by binary-diffing the pre/post-patch `AppleSEPKeyStore` kext — the PoC and write-up here are mine, but the underlying vulnerability was already known to whoever reported it to Apple.
 
